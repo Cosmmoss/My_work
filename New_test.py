@@ -9,5 +9,5 @@ file1.write(result)  # записываю в файл результат
 file1.close
 file1 = open('write.txt', 'r', encoding = 'UTF-8')  # открываю для чтения
 cont = file1.read()
-print(*[i for i in cont])  # вывод на печать
+print(*[i for i in cont], sep='\n')  # вывод на печать
 file.close()
