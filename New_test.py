@@ -11,3 +11,4 @@ file1 = open('write.txt', 'r', encoding = 'UTF-8')  # открываю для ч
 cont = file1.read()
 print(*[i for i in cont], sep='\n')  # вывод на печать
 file.close()
+# Тестирую
